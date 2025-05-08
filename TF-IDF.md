@@ -10,7 +10,7 @@ TF-IDF is a statistical measure used in **text mining** and **information retrie
 
 **Formula**:
 
-*** TF-IDF = TF * IDF
+## TF-IDF = TF * IDF
 
 ---
 
