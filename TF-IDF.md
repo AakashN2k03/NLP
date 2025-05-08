@@ -25,20 +25,17 @@ IDF measures how **unique** or **rare** a term is across all documents in the co
  - CALCULATE TF AND IDF FOR EACH SENTENCES AND MULTIPLY CORRESPONDINGLY -> (TF*IDF)
 This means "boy" has moderate importance in the first sentence.
 ---
-## 📘 Example Corpus
-3 Documents:
-1. "the cat sat on the mat"  
-2. "the dog sat on the log"  
-3. "the cat chased the dog"
-To compute TF-IDF for "cat" in Document 1:
-- `TF = 1/6 = 0.166`
-- Appears in 2 of 3 docs → `df("cat") = 2`
-- `IDF = log(3 / (1+2)) = log(1) = 0`  
-→ `TF-IDF = 0.166 × 0 = 0`
----
-## 🧾 Definitions
-- **Document**: A single piece of text (e.g., one article, review).
-- **Corpus**: A collection of documents.
+## 📘 Example Corpus AND document
+ Example:
+- If you have:
+- "the cat sat on the mat"
+- "the dog barked loudly"
+- "the bird sang a song"
+
+-Then the corpus is the collection of all three documents.
+
+- Each line = one document
+- All lines together = the corpus
 ---
 ## ✅ Advantages
 - Simple and fast to compute  
