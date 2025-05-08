@@ -22,7 +22,7 @@ IDF measures how **unique** or **rare** a term is across all documents in the co
 - IDF for the word good = log(2/2)=0
 ---
 ## 🔹 TF-IDF Example
- - CALCULATE TF AND IDF FOR EACH SENTENCES AND MULTIPLY CORRESPONDINGLY ### (TF*IDF)
+ - CALCULATE TF AND IDF FOR EACH SENTENCES AND MULTIPLY CORRESPONDINGLY -> (TF*IDF)
 This means "boy" has moderate importance in the first sentence.
 ---
 ## 📘 Example Corpus
