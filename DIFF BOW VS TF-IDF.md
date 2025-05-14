@@ -84,16 +84,4 @@ So:
 **TF-IDF:**
 * Downweights such common words using **IDF**.
 * Helps highlight **important**, **topic-specific** words.
-
-### ✅ 2. **Improves Feature Discrimination**
-
-TF-IDF better distinguishes documents based on **unique words**.
-
-Example:
-
-| Document | Important Word (TF-IDF) |
-|----------|-------------------------|
-| "The economy is growing fast" | **economy, growing** |
-
-While BoW just counts all words, TF-IDF gives **higher importance to "growth", "economy", etc.**, helping classification models like SVM or Logistic Regression perform better.
-
+* 
