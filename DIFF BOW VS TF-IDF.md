@@ -84,4 +84,3 @@ So:
 **TF-IDF:**
 * Downweights such common words using **IDF**.
 * Helps highlight **important**, **topic-specific** words.
-* 
