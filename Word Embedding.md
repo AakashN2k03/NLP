@@ -26,6 +26,42 @@ The classic example that shows how word embeddings capture **semantic relationsh
 
 
 This works because the embedding captures gender and role-related meaning.
+# 🧠 Word Embedding Analogy: `vec("king") - vec("man") + vec("woman") ≈ vec("queen")`
+
+## 🧠 What Does It Mean?
+
+Each word (like `"king"`, `"man"`, `"woman"`, `"queen"`) is represented as a **vector** — a list of numbers.
+
+In a **well-trained embedding space** (like Word2Vec or GloVe), these vectors capture **meanings** and **relationships**, such as:
+
+- 👨‍⚖️👩‍⚖️ **Gender**: male ↔ female  
+- 👑 **Royalty**: king/queen/prince/princess
+
+These embeddings allow **mathematical operations** on word meanings.
+
+---
+
+## 🔢 Step-by-Step Meaning
+
+### 1. `vec("king") - vec("man")`
+- This subtracts the concept of "man" from "king".
+- It gives a vector that represents **"royalty" without gender** — essentially, the idea of a **ruler**.
+
+### 2. `+ vec("woman")`
+- Now, add the concept of "woman" to the neutral "ruler" vector.
+- This introduces **female context** into the royal concept.
+
+### 3. `≈ vec("queen")`
+- The result is a vector that points **very close** to `"queen"` in the vector space.
+
+---
+
+## ✅ Meaning:
+
+> **"If a king is a man, then a queen is a woman."**
+
+This captures the **analogy**:  
+
 
 ---
 
