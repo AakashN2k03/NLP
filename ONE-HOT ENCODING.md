@@ -1,7 +1,7 @@
 # One-Hot Encoding in NLP
 
 ## Overview
-
+ 
 One-hot encoding is a fundamental technique used in Natural Language Processing (NLP) to transform categorical text data into numerical vectors that machine learning algorithms can process.
 
 ## What is One-Hot Encoding? 🔷
