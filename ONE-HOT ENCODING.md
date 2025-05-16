@@ -102,3 +102,31 @@ While simple to implement, one-hot encoding has limitations for large vocabulari
 - Neural language models
 
 These approaches provide denser representations that capture semantic similarities between words, making them more effective for complex NLP tasks.
+
+## Eg Implementation
+```python
+# Importing necessary libraries
+from sklearn.preprocessing import OneHotEncoder
+import numpy as np
+import pandas as pd
+
+# Method 1: Using OneHotEncoder for text data
+# ---------------------------------------------
+
+# Sample data
+data = [['I'], ['love'], ['apple'], ['and'], ['I'], ['love'], ['banana']]
+
+# Create the encoder
+encoder = OneHotEncoder(sparse_output=False)  # set sparse=False to get a dense array instead of sparse matrix
+
+# Fit and transform the data
+one_hot_encoded = encoder.fit_transform(data)
+
+# Get feature names (categories)
+feature_names = encoder.categories_[0]
+
+# Create a DataFrame for better visualization
+df = pd.DataFrame(one_hot_encoded, columns=feature_names)
+
+print(df)
+```
