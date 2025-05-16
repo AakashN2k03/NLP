@@ -138,35 +138,6 @@ One single vector for the entire sentence:
 [1, 1, 1, 2, 2]
 ```
 
-## Implementation Considerations
-
-### One-Hot Encoding
-```python
-def one_hot_encode(tokens, vocabulary):
-    result = []
-    vocab_size = len(vocabulary)
-    word_to_index = {word: i for i, word in enumerate(vocabulary)}
-    
-    for token in tokens:
-        vector = [0] * vocab_size
-        vector[word_to_index[token]] = 1
-        result.append(vector)
-    
-    return result
-```
-
-### Bag of Words
-```python
-def create_bow(tokens, vocabulary):
-    vocab_size = len(vocabulary)
-    word_to_index = {word: i for i, word in enumerate(vocabulary)}
-    
-    vector = [0] * vocab_size
-    for token in tokens:
-        vector[word_to_index[token]] += 1
-    
-    return vector
-```
 
 ## Use Cases
 
