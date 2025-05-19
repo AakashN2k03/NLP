@@ -16,7 +16,7 @@ This repository implements the **Continuous Bag of Words (CBOW)** model, a varia
 CBOW (Continuous Bag of Words) is a powerful natural language processing technique that creates dense vector representations of words (word embeddings) by learning to predict a target word from its surrounding context words. These word embeddings capture semantic relationships between words, allowing similar words to have similar vector representations.
 
 - CBOW is called a shallow neural network because it has just one hidden layer (the embedding layer). It's simple, fast, and effective for learning word vectors.
-- 
+  
 ## What is CBOW?
 
 CBOW is a shallow neural network used in Natural Language Processing (NLP) that aims to predict a **target word** given a set of **context words**.
