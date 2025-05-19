@@ -10,7 +10,6 @@ This repository implements the **Continuous Bag of Words (CBOW)** model, a varia
 - [Example Walkthrough](#example-walkthrough)
 - [Applications](#applications)
 - [Advantages and Limitations](#advantages-and-limitations)
-- [Code Implementation](#Code Implementation)
 
 ## Overview
 
