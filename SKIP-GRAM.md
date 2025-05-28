@@ -154,6 +154,34 @@ Loss = -log(P("I")) + -log(P("coding"))
 | Good at capturing semantics | More memory usage than CBOW |
 | Can use negative sampling | Ignores word order |
 
+## Code Implementation
+
+### Usage
+```python
+# Example code for training a CBOW model
+# main.py
+from skipgram import SkipGramModel
+
+# Initialize model
+model = SkipGramModel(
+    corpus_file="data/corpus.txt",
+    embedding_size=50,
+    window_size=2
+)
+
+# Train model
+model.train(epochs=10, lr=0.05)
+
+# Get embeddings
+word_vectors = model.get_embeddings()
+
+# Find similar words
+similar = model.most_similar("coding", top_n=5)
+print("Most similar to 'coding':", similar)
+
+```
+
+
 ## 🔚 Summary Comparison: CBOW vs Skip-gram
 
 | Aspect | CBOW | Skip-gram |
