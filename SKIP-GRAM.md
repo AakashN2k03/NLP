@@ -141,7 +141,6 @@ Loss = -log(P("I")) + -log(P("coding"))
 
 ## 🎯 Applications
 - Semantic similarity
-- Analogies (king - man + woman = queen)
 - Text classification
 - Named Entity Recognition
 - Text generation
