@@ -2,15 +2,6 @@
 
 Skip-Gram Model – a variant of Word2Vec that learns word embeddings by predicting surrounding context words from a single target word.
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [What is Skip-gram?](#what-is-skip-gram)
-- [Architecture](#architecture)
-- [Implementation Process](#implementation-process)
-- [Example Walkthrough](#example-walkthrough)
-- [Applications](#applications)
-- [Advantages and Limitations](#advantages-and-limitations)
-
 ## 🧠 Overview
 Skip-gram is a shallow neural network used in NLP that aims to learn word embeddings by predicting context words based on a center (target) word.
 
