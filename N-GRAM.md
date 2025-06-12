@@ -6,7 +6,7 @@ An **n-gram** is a **sequence of 'n' consecutive items** from a given text. Thes
 * **Bigram (n=2)** → Pairs of words  
 * **Trigram (n=3)** → Triplets of words
 * **4-gram (n=4)** → Four-word sequences, and so on
-
+ 
 ### Example
 
 Given the sentence: `"I love machine learning"`
